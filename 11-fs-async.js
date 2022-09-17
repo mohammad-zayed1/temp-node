@@ -1,5 +1,6 @@
 const { readFile, writeFile } = require("fs");
-console.log('start');
+
+console.log("start");
 // function #1
 readFile("./content/first.txt", "utf8", (err, result) => {
   // read file #1
@@ -34,7 +35,7 @@ readFile("./content/first.txt", "utf8", (err, result) => {
           console.log(err);
           return;
         }
-        console.log('done with this task');
+        console.log("done with this task");
       }
     );
   }); // read file #2
